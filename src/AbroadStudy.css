@@ -1,0 +1,121 @@
+
+.abroadstudy-container {
+    height: 242vh;
+    width: 100%;
+background-color: white;
+}
+
+.abroadstudy-class {
+    position: relative;
+    left: 5%;
+    height: 100%;
+    width: 90%;
+    margin-top: 20px;
+    
+}
+
+.abroadstudy-card {
+    position: relative;
+    overflow: hidden;
+    /* background-color: rgb(223, 234, 238); */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.abroad-card {
+    position: relative; 
+    width: 100%;
+    overflow: hidden;
+}
+
+.abroadstudy-img {
+    width: 100%;
+    height: 525px;
+    display: block;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.abroad-card::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 30%;
+    background: linear-gradient(to top, rgba(0, 0, 250, 0.6), transparent);
+    z-index: 2;
+    pointer-events: none;
+}
+
+#abroad {
+    position: absolute;
+    bottom: 5%;
+    left: 55%;
+    transform: translateX(0%);
+    color: white;
+    /* text-align: center; */
+    z-index: 3;
+}
+
+.abroadstudy-class p{
+    text-align: center;
+    padding-top: 8px;
+    color: #f15a29;
+}
+.abroadstudy-class h1{
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #0b2c6a;
+}
+
+
+
+
+@media screen and (max-width: 400px) {
+    .abroadstudy-container {
+      height: auto; 
+      position: relative;
+      left: 5%;
+      width: 90%;
+      padding-bottom: 15px;
+    }
+  
+    .abroadstudy-class {
+       
+      left: 0;
+      width: 100%;
+     
+    }
+  
+    .abroadstudy-card {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+  
+    .abroadstudy-img {
+      height:180px;
+    }
+  
+    #abroad {
+      font-size: 12px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      bottom: 8%;
+    }
+  
+    .abroadstudy-class p{
+        font-size: 14px;
+    }
+   
+    .abroadstudy-class h1 {
+        font-size: 18px;
+    }
+  }
+  
+

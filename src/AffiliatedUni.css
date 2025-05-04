@@ -1,0 +1,67 @@
+.affiliateduni{
+    height: 300px;
+    width:100%;
+    background-color: rgb(223, 234, 238);
+}
+
+.affiliateduni-para{
+    text-align: center;
+}
+.affiliateduni-para p{
+   padding-top: 30px;
+   color: #f15a29;
+}
+.affiliateduni-para h1{
+    padding-top: 10px;
+    color: #0b2c6a;
+}
+
+.unilogo{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.unilogo img{
+    height: 100px;
+    width: 200px;
+   padding-top: 30px;
+   
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .affiliateduni {
+      height: auto;
+      padding: 10px 10px;
+    }
+
+    .affiliateduni-para p{
+        padding: 0;
+        font-size: 14px;
+    }
+  
+    .affiliateduni-para h1 {
+      font-size: 18px;
+    }
+  
+    .unilogo {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+  
+    .unilogo img {
+      width: 30%; 
+      max-width: 100px;
+      height: 50px;
+    }
+  
+    .unilogo img:nth-child(n+4) {
+      width: 45%; 
+    }
+  }
+  
+  

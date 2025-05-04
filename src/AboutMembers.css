@@ -1,0 +1,131 @@
+
+.aboutmembers{
+    height: 380px;
+    width: 100%;
+    background-color:white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.aboutmembers-container{
+    position: relative;
+    left: 5%;
+    height: 100%;
+    width: 90%;
+
+    display: flex;
+    overflow: hidden;
+}
+
+#aboutmember-img1{
+    height: 100%;
+    width: 25%;
+    /* background-color: blue; */
+}
+
+#aboutmember-img1 img, 
+#aboutmember-img2 img,
+#aboutmember-img3 img,
+#aboutmember-img4 img{
+    position: relative;
+    top: 3%;
+    left: 10%;
+    height: 75%;
+    width: 80%;
+    border: 2px solid  #f15a29;
+    border-radius: 5px;
+}
+
+#aboutmember-img1 h2, 
+#aboutmember-img2 h2,
+#aboutmember-img3 h2,
+#aboutmember-img4 h2 {
+    padding-top: 20px;
+    text-align: center;
+    color: #0b2c6a;
+}
+
+#aboutmember-img1 p, 
+#aboutmember-img2 p,
+#aboutmember-img3 p,
+#aboutmember-img4 p{
+    padding-top: 5px;
+    text-align: center;
+    color: #f15a29;
+}
+
+#aboutmember-img2{
+    height: 100%;
+    width: 25%;
+    /* background-color: green; */
+}
+#aboutmember-img3{
+    height: 100%;
+    width: 25%;
+    /* background-color:pink; */
+}
+#aboutmember-img4{
+    height: 100%;
+    width: 25%;
+    /* background-color:purple; */
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .aboutmembers {
+      height: auto;
+      margin-bottom: 5px;
+      margin: 0;
+    }
+  
+    .aboutmembers-container {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      left: 0;
+      width: 100%;
+      height: auto;
+      
+    }
+  
+    #aboutmember-img1,
+    #aboutmember-img2,
+    #aboutmember-img3,
+    #aboutmember-img4 {
+      width: 45%;
+      margin:0px 5px;
+      margin-bottom: 20px;
+      height: auto;
+     
+    }
+  
+    #aboutmember-img1 img,
+    #aboutmember-img2 img,
+    #aboutmember-img3 img,
+    #aboutmember-img4 img {
+      width: 95%;
+      height: 200px;
+      left: 0;
+      top: 0;
+      /* margin: 0 auto; */
+      display: block;
+      
+    }
+  
+    #aboutmember-img1 h2,
+    #aboutmember-img2 h2,
+    #aboutmember-img3 h2,
+    #aboutmember-img4 h2 {
+      font-size: 18px;
+      /* margin-top: 10px; */
+    }
+  
+    #aboutmember-img1 p,
+    #aboutmember-img2 p,
+    #aboutmember-img3 p,
+    #aboutmember-img4 p {
+      font-size: 14px;
+    }
+  }
+  

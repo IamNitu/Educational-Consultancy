@@ -1,0 +1,141 @@
+
+.contact-container {
+    height: 710px;
+    width: 100%;
+ background-color:white;
+  }
+  
+  .banner {
+    background:
+    linear-gradient(rgba(31, 77, 183, 0.92), rgba(31, 77, 183, 0.92)), 
+     url('https://pic.uhomes.com/onlineblog/cdn/uploads/2024/02/UK-Graduation.jpg')  no-repeat center center;
+    background-size: cover;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+    height:150px;
+  }
+ 
+  .banner h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .form-wrapper {
+    max-width: 700px;
+    margin: -90px auto 0 auto;
+    background: white;
+    padding:  40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  
+  .form-wrapper h3 {
+    color: #0033a0;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form .double {
+    display: flex;
+    gap: 30px;
+   
+  }
+  
+  .contact-form .form-field {
+    flex: 1;
+  }
+  .form-group {
+    padding-right: 25px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 14px;
+  }
+  
+  .send-button {
+    background-color: #0033a0;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .send-button:hover {
+    background-color: #002080;
+  }
+  
+
+
+  @media screen and (max-width: 400px) {
+    .contact-container {
+      height: auto; 
+      width: 90%;
+      position: relative;
+      left: 5%;
+    }
+  
+    .banner {
+      padding: 40px 10px;
+      height: 80px;
+    }
+  
+    .banner h2 {
+      font-size: 18px;
+    }
+  
+    .form-wrapper {
+      margin: -60px 10px 0 10px;
+      padding: 20px;
+    }
+  
+    .form-wrapper h3 {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+  
+    .contact-form .double {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .form-group {
+      padding-right: 0;
+    }
+  
+    .contact-form label {
+      font-size: 13px;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      font-size: 13px;
+      padding: 8px;
+    }
+  
+    .send-button {
+      width: 100%;
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  
+

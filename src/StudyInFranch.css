@@ -1,0 +1,391 @@
+.franch-banner{
+    height: 208vh;
+    width: 100%;
+    background-color:white;
+    margin-top: 20px;
+}
+
+.franch-container{
+    position: relative;
+    left: 5%;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    gap: 20px;
+}
+.franch-paragraph{
+    height: 100%;
+    width: 70%;
+    /* background-color: blue; */
+}
+
+.franch-box{
+    height: 100%;
+    width: 40%;
+    /* background-color: tomato; */
+}
+
+.franch-img{
+height: 400px;
+width: 100%;
+}
+.franch-img h1, .franch-overview h2{
+    color: #0b2c6a;
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
+.franch-img p{
+    padding-bottom: 5px;
+    color: #f15a29; 
+}
+
+.franch-img img{
+    height: 340px;
+    width: 100%;
+}
+
+.franch-overview{
+    height: 300px;
+    width: 100%;
+    
+}
+
+.franch-overview p{
+    padding-top: 4px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.franch-choose{
+    height: 260px;
+    width: 100%;
+    
+}
+
+.franch-choose p, .franch-choose h2{
+    padding-top: 8px;
+}
+
+.franch-program{
+    height: 500px;
+    width: 100%;
+    
+}
+
+.franch-work{
+height: 240px;
+width: 100%;
+/* background-color: red; */
+}
+
+.franch-work p{
+    padding-bottom: 8px;
+}
+.franch-work h2{
+    text-align: justify;
+    padding-bottom: 4px;
+color: #0b2c6a;
+}
+
+#franch-footer-para{
+    padding-top: 10px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.franch-admission{
+    height: 260px;
+    width: 100%;
+   
+}
+
+#franch-work {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+
+#franch-work p{
+    padding-left: 60px;
+    padding-top: 12px;
+    height: 25px;
+    width: 210px;
+    background-color: #f15a29;
+    color: white;
+    /* border: 2px solid black; */
+}
+
+.franch-admission h2{
+    color: #0b2c6a;
+    padding-bottom: 10px;
+}
+
+.franch-admission p{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+#franch-icon{
+    height: 20px;
+    width: 20px;
+   color: #f15a29;
+}
+
+#journey{
+    text-align: justify;
+    line-height: 20px;
+}
+
+
+.franch-collection{
+    height: 400px;
+    width: 100%;
+    /* background-color: #0b2c6a; */
+
+}
+
+.franch-form{
+    margin-top: 180px;
+    height: 120vh;
+    width: 100%;
+    /* background-color: #f15a29; */
+}
+
+.study-franch-box{
+    height: 100%;
+    width: 100%;
+   
+}
+
+.franch-class{
+    height: 56px;
+    width: 100%;
+    background-color:rgb(254, 214, 220);
+    /* border: 2px solid black; */
+    margin-bottom: 25px;
+}
+
+.franch-class p{
+height: 20px;
+width: 100%;
+   display: flex;
+   position: relative;
+   top: 30%;
+   left: 10%;
+   gap: 10px;
+   font-size: 1.05rem;
+}
+
+.maggie{
+    height: 56px;
+    width: 100%;
+    background-color:#f15a29;
+    color: white;
+}
+
+
+.enroll-franch-container {
+    
+    height: 100%;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    background: #f5f5f5;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  .franch-header {
+    background-image: url('C:\Users\user\Desktop\EducationalConsultancy\consultancy-app\public\aboutus.webp');
+    background-size: cover;
+    background-position: center;
+    height: 240px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .franch-header h2 {
+    color: white;
+    font-size: 24px;
+    background: rgba(0,0,0,0.5);
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  .enroll-franch {
+    padding:10px ;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-right: 20px ;
+  }
+
+
+  
+  .enroll-franch input,
+  .enroll-franch select,
+  .enroll-franch textarea {
+    width: 100%;
+    height: 40px;
+    margin-left: 10px;
+    /* padding: 10px; */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: white;
+    font-size: 14px;
+  }
+  
+  .enroll-franch textarea {
+    width: 100%;
+    min-height: 140px;
+    resize: vertical;
+  }
+  
+  .apply-now-button {
+    background-color: #1d3c89;
+    color: white;
+    border: none;
+    padding: 12px;
+  
+    margin-left: 22px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .apply-now-button:hover {
+    background-color: #142960;
+  }
+  
+
+
+  @media screen and (max-width: 400px) {
+    .franch-banner {
+      height: auto;
+     
+    }
+  
+    .franch-container {
+      flex-direction: column;
+      left: 0;
+      width: 100%;
+      padding: 10px;
+      width: 90%;
+      left: 2%;
+    }
+  
+    .franch-paragraph, .franch-box {
+      width: 100%;
+    }
+  
+    .franch-img h1 {
+      font-size: 18px;
+    }
+  
+    .franch-img img {
+      height: 340px;
+      width: 100%;
+    }
+
+    .franch-overview h2,
+    .franch-choose h2,
+    .franch-program h2,
+    .franch-work h2,
+    .franch-admission h2{
+        font-size: 18px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .franch-overview p,
+    .franch-choose p,
+    .franch-program p,
+    .franch-work p,
+    .franch-admission p{
+        font-size: 14px;
+        line-height: 15px;
+        text-align: justify;
+    }
+  
+    .franch-overview,
+    .franch-choose,
+    .franch-program,
+    .franch-work,
+    .franch-admission {
+      height: auto;
+      width: 100%;
+    }
+  
+    #franch-work {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 10px;
+    }
+  
+    #franch-work p {
+      padding-left: 10px;
+      width: auto;
+      text-align: left;
+    }
+  
+    .franch-class p {
+      font-size: 14px;
+      left: 5%;
+    }
+
+    .franch-collection{
+        height: 250px;
+    }
+
+    .franch-class, .maggie{
+        height: 40px;
+        
+    }
+    .franch-class{
+        margin-bottom: 10px;
+    }
+
+  .franch-form{
+    margin: 0;
+    height: 750px;
+  }
+  
+    .franch-header h2 {
+      font-size: 18px;
+      padding: 8px 16px;
+    }
+  
+    .enroll-franch-container {
+      width: 100%;
+      /* margin: 20px auto; */
+    }
+  
+    .enroll-franch {
+      padding: 10px;
+      margin-right: 0;
+    }
+  
+    .enroll-franch input,
+    .enroll-franch select,
+    .enroll-franch textarea {
+      margin-left: 0;
+      font-size: 12px;
+    }
+  
+    .apply-now-button {
+      margin-left: 0;
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    #journey {
+      font-size: 14px;
+    }
+  }
+  
+

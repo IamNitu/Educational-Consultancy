@@ -1,0 +1,129 @@
+.CareerCounseling{
+    height: 122vh;
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+}
+
+.careercounseling-about{
+    position: relative;
+    left: 5%;
+    height: 100%;
+    width: 60%;
+    
+    /* background-color: rgb(177, 125, 125); */
+}
+
+#career-description{
+    padding-top: 10px;
+    text-align: justify;
+   line-height: 22px;
+   
+}
+
+#careercounseling-header{
+    padding-top: 10px;
+    color: #f15a29;
+}
+
+.careercounseling-about h1{
+    padding-top: 10px;
+    color: #0b2c6a;
+}
+
+.careercounseling-about img{
+    padding-top: 10px;
+    height: 350px;
+    width: 100%;
+}
+
+
+.careercounseling-container{
+    position: relative;
+    left: 5%;
+    height: 100%;
+    width: 30%;
+   
+    
+}
+
+.career-box ,.career-box-section{
+    position:relative;
+    left: 10%;
+    height: 60px;
+    width: 90%;
+    background-color:rgb(242, 227, 229) ;
+    margin-top: 15px;
+    
+}
+
+.career-box p, .career-box-section p{
+    position: relative;
+    top: 30%;
+    left: 5%;
+    display: flex;
+    font-size: 1.07rem;
+    gap: 10px;
+}
+
+.career-box-section {
+    
+    color: white;
+    background-color: #f15a29;
+}
+
+
+
+@media (max-width: 400px) {
+    .CareerCounseling {
+      flex-direction: column;
+      height: auto;
+      position: relative;
+      width: 90%;
+      left: 5%;
+      padding-bottom: 15px;
+    }
+  
+    .careercounseling-about,
+    .careercounseling-container {
+      position: static;
+      width: 100%;
+    }
+  
+    .careercounseling-about img {
+      width: 100%;
+      height: auto;
+    }
+  
+    #career-description {
+      font-size: 14px;
+      line-height: 15px;
+    }
+  
+    .career-box,
+    .career-box-section {
+      width: 100%;
+      left: 0;
+      height: 40px;
+      
+    }
+  
+    .career-box p,
+    .career-box-section p {
+      font-size: 14px;
+      padding: 10px;
+      top: 0;
+      left: 0;
+    }
+  
+    .careercounseling-about h1 {
+      font-size: 18px;
+    }
+  
+    #careercounseling-header {
+      font-size: 16px;
+    }
+  }
+  
+

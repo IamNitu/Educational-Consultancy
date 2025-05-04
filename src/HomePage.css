@@ -1,0 +1,74 @@
+
+.main-homepage{
+    height: 600px;
+    width: 100%;
+}
+
+.homepage{
+    height: 600px;
+    width: 100%;
+   position: absolute;
+}
+
+.homepage img{
+height:100%;
+width: 100%;
+}
+
+.homepage h1{
+ position: relative;   
+ top:-60%;
+ left: 6%;
+ width: 600px;
+ color: white;
+ font-size: 2.5rem;
+}
+.homepage p{
+ position: relative;   
+ top:-60%;
+ left: 6%;
+ width: 500px;
+ padding-top: 20px;
+ font-size: 1.05rem;
+ color: white;
+ font-weight: lighter;
+}
+
+@media screen and (max-width: 400px) {
+    .main-homepage,
+    .homepage {
+      height: auto;
+      position: relative;
+    }
+  
+    .homepage img {
+      height: 450px;
+      width: 100%;
+      object-fit: cover;
+    }
+  
+    .homepage h1,
+    .homepage p {
+
+      position: static;
+      position: absolute;
+      top: 60%;
+      left: 5%;
+      width: 90%;
+      margin: 10px auto;
+      color: white;
+      text-align: justify;
+    }
+  
+    .homepage h1 {
+      font-size: 18px;
+     
+    }
+  
+    .homepage p {
+      font-size:14px;
+      padding-top: 30px;
+      
+    }
+  }
+  

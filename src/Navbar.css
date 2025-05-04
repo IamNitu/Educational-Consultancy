@@ -1,0 +1,169 @@
+/* 
+.navbar{
+    height: 150px;
+    width: 100%;
+} */
+
+
+  .main-nav{
+    width: 100%;
+    height: 160px;
+    background-color: aqua;
+    display: flex;
+  }
+
+  .child-div1{
+    width: 15%;
+    height: 100%;
+    background-color:white;
+    padding-left: 40px;
+  }
+  .child-div2{
+    width: 85%;
+    height: 100%;
+    background-color: violet;
+  }
+
+  #header{
+    width: 100%;
+    height: 80px;
+    background-color:cadetblue;
+  }
+  .grandchild-div2{
+    width: 100%;
+    height: 80px;
+    background-color:rgb(148, 156, 156);
+  }
+
+  .navimg{
+    height: 100%;
+    width: 80%;
+   
+  }
+
+.header-info {
+    display: flex;
+    background: none;
+    justify-content: space-evenly;
+}
+
+  .header-info p {
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; 
+     margin: 0;
+    background: none;
+  }
+  
+  #nav-icon {
+    width: 20px;
+    height: 20px;
+    background: none;
+  }
+  
+  .navlink , #navlink{
+    background:none;
+    text-decoration: none;
+    color: black;
+  } 
+
+  .navlink {
+font-size: 16px;
+display: flex;
+justify-content: space-evenly;
+padding: 30px 10px;
+
+  }
+
+
+  #navlink:hover{
+    color: #f15a29;
+  }
+
+  .hamburger {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+  }
+
+
+  @media screen and (max-width: 400px) {
+    .main-nav {
+      flex-direction: column;
+      height: auto;
+      position: relative;
+
+    }
+  
+    .child-div1 {
+      width: 100%;
+      padding-left: 10px;
+      text-align: center;
+    }
+  
+    .navimg {
+      height: 120px;
+      width: 40%;
+    }
+  
+    .child-div2 {
+     
+      width: 100%;
+    }
+
+    #header p, #nav-icon{
+      font-size: 14px;
+    }
+  
+    .header-info {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+  
+    .header-info p {
+      line-height: 24px;
+      font-size: 0.9rem;
+    }
+  
+    .grandchild-div2 {
+      position: relative;
+      height: auto;
+    }
+  
+    .hamburger {
+      display: block;
+      position: absolute;
+      top: -80px;
+      right: 5px;
+      z-index: 1000;
+    }
+  
+    .navlink {
+      position: absolute;
+      top: 0; 
+      right: 0;
+      height: 400px;
+      width: 90%;
+      background-color: white;
+      flex-direction: column;
+      align-items: center;
+      display: none;
+      z-index: 1100;
+      padding: 10px 20px;
+      /* overflow-y: auto; */
+    }
+  
+    .navlink.show {
+      display: flex;
+    }
+  
+    #navlink {
+      padding: 10px 0;
+      font-size: 1rem;
+    }
+  }
+  

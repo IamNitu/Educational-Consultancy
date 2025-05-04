@@ -1,0 +1,65 @@
+
+.testpreparationclass{
+    overflow: hidden;
+    height: 580px;
+    width: 100%;
+    /* background-color:cadetblue; */
+}
+
+.testclass-head h2{
+    text-align: center;
+    color: rgba(2, 2, 171, 0.8);
+    padding-top: 10px;
+}
+
+.testclass-head p{
+    text-align: center;
+    color: #f15a29;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.test-img{
+    height: 350px;
+    width: 75%;
+}
+
+
+.testclass-slider{
+    position: relative;
+    left: 3%;
+}
+
+
+
+
+@media screen and (max-width: 400px) {
+    .testpreparationclass {
+      height: auto;
+      padding: 10px 0;
+    }
+  
+    .test-img {
+      width: 100%;
+      height: 300px;
+      max-height: 250px;
+      object-fit: cover;
+      margin: 0 auto;
+    }
+  
+    .testclass-slider {
+      left: 0;
+      padding: 0 10px;
+    }
+  
+    .testclass-head h2 {
+      font-size: 18px;
+      padding-top: 2px;
+    }
+  
+    .testclass-head p {
+      font-size: 14px;
+      padding: 8px 0;
+    }
+  }
+  

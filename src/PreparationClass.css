@@ -1,0 +1,69 @@
+.test-prepration{
+    margin-top: 10px;
+    height: 800px;
+    width: 100%;
+    background-color:white;
+    overflow: hidden;
+   display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 0px;
+}
+
+.testprep-card img{
+    position: relative;
+    top: 5%;
+    left: 15%;
+    height: 310px;
+    width: 360px
+}
+
+.testprep-card button{
+    position: relative;
+    top:-20%;
+    left: 10%;
+    background-color:white;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+   border: none;
+   font-size: 16px;
+   font-weight: bold;
+   color: #0b2c6a;
+   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+@media screen and (max-width: 400px) {
+    .test-prepration {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 850px;
+      padding: 20px 0;
+      gap: 20px;
+    }
+  
+    .testprep-card img {
+      top: 0;
+      left: 0;
+      height: 220px;
+      width: 100%;
+      max-width: 400px;
+      object-fit: cover;
+      margin: 0 auto;
+    }
+  
+    .testprep-card button {
+      top: -10%;
+      left: 0;
+      width: 70%;
+      max-width: 200px;
+      margin: 10px auto 0 auto;
+      height: 45px;
+      font-size: 14px;
+      display: block;
+    }
+  }
+  

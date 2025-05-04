@@ -1,0 +1,110 @@
+.freeonlinecourse{
+    height: 194vh;
+    width: 100%;
+    background-color:white;
+}
+
+.freecourse-section{
+    position: relative;
+left: 5%;
+    height: 132vh;
+    width: 90%;
+    
+    margin-top: 10px;
+}
+
+.freecoourse-secion-img{
+    height: 350px;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.freecoourse-secion-img p{
+    /* padding-top: 10px; */
+    color: #f15a29;
+}
+
+.freecoourse-secion-img h1{
+    padding-top: 2px;
+    color: #0b2c6a;
+    font-size: 1.8rem;
+}
+
+.freecoourse-secion-img img{
+    padding-top: 10px;
+  
+height: 80%;
+width: 70%;
+}
+
+.freecoursesection-para{
+    height: 180px;
+    width: 100%;
+    /* background-color: rgb(3, 42, 29); */
+}
+
+.freecoursesection-para p{
+    text-align: justify;
+    line-height: 20px;
+}
+
+.freecourse-component{
+    height: 180px;
+    width: 100%;
+    
+}
+
+.freecourse-component p{
+    position: relative;
+    top: 12%;
+    left: 3.5%;
+    width: 90%;
+    text-align: justify;
+    border-left: 3px solid black;
+    padding: 20px;
+    line-height: 20px;
+    background-color:  rgb(223, 234, 238);
+}
+
+.freecourse-slider{
+    height: 650px;
+    width: 100%;
+    background-color:rgb(223, 234, 238);
+}
+
+.free-slider{
+    position: relative;
+    left: 5%;
+    height: 650px;
+    width: 90%;
+    background-color:rgb(223, 234, 238);
+}
+
+.free-slider-container{
+   
+    height: 150px;
+    width: 100%;
+    
+}
+
+.free-slider-container p{
+position: relative;
+top: 50%;
+    text-align: center;
+    color: #f15a29;
+}
+
+.free-slider-container h1{
+    position: relative;
+top: 50%;
+    text-align: center;
+    padding-top: 2px;
+    color: #0b2c6a;
+    font-size: 1.8rem;
+}
+
+.slider-container{
+    height: 500px;
+    width: 100%;
+   
+}

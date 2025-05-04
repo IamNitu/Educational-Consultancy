@@ -1,0 +1,152 @@
+
+.main-destination{
+    /* position: absolute; */
+    height: 650px;
+    width: 100%;
+    display: flex;
+    /* background-color: red; */
+   
+}
+
+.destination-about{
+    position: relative;
+    width: 40%;
+    background-color: rgb(223, 234, 238);
+    
+}
+.destination-about p{
+    position: relative;
+    top:15%;
+    left:18%;
+    width: 370px;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+#destination-para{
+    color: #f15a29;
+}
+
+.destination-about h1{
+    position: relative;
+    top:15%;
+    left:18%;
+    width: 320px;
+    text-align: justify;
+    padding: 10px;
+    color: rgba(2, 2, 171, 0.8);
+    /* font-size: 2rem; */
+}
+
+#homedestination-btn{
+    position: relative;
+    top: 18%;
+    left: 20%;
+    height: 35px;
+    width: 130px;
+    padding:0 18px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; 
+     background-color: rgba(2, 2, 171, 0.8);
+     color: white;
+   border: none;
+   cursor: pointer;
+}
+
+#homedestination-icon{
+    width: 20px;
+    height: 18px;
+}
+
+.destination-slider{
+    position: relative;
+    overflow: hidden;
+    width: 60%;
+    background-color: rgb(223, 234, 238);
+}
+
+.destination-img{
+    height: 500px;
+    width: 85%;
+}
+
+.slick-slide>div{
+    margin:0 20px;
+    padding: 20px 0px;
+}
+.destination-slider,.slick-slide{
+    margin: 0;
+    padding: 0;
+}
+#hello{
+    position: relative;
+    
+    left: 15%;
+text-align: center;
+}
+
+
+@media screen and (max-width: 400px)
+{
+    .main-destination{
+        flex-direction: column;
+        height:auto;
+    }
+
+    .destination-about{
+        width: 100%;
+        /* padding: 20px; */
+    }
+
+    .destination-about p {
+        top: 0;
+        left: 0;
+        width: 92%;
+        margin: 10 auto;
+        padding: 10px 15px;
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .destination-about h1{
+        top: 0;
+        left: 0;
+        width: 92%;
+        /* margin: 10 auto; */
+        /* padding: 10px 15px; */
+        text-align: justify;
+        font-size: 24px;
+    }
+
+    #homedestination-btn {
+        top: 0;
+        left: 0;
+        margin: 15px;
+        width: auto;
+        height: 40px;
+        font-size: 14px;
+        padding: 0 12px;
+    }
+    .destination-slider {
+        width: 100%;
+        
+    }
+
+    .destination-img {
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #hello {
+        left: 0;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+
+    .slick-slide > div {
+        margin: 0 10px;
+    }
+}

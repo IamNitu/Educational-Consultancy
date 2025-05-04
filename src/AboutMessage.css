@@ -1,0 +1,146 @@
+
+.aboutmessage{
+    height: 900px;
+    width: 100%;
+    background-color:white;
+    overflow: hidden;
+   
+}
+
+.aboutmessage-section{
+    position: relative;
+    left: 5%;
+    height: 50%;
+    width: 90%;
+
+    display: flex;
+}
+
+.aboutmessage-section1{
+    position: relative;
+    left: 5%;
+    display: flex;
+    height: 50%;
+    width: 90%;
+ 
+}
+
+.aboutmessage-container{
+    padding-top: 20px;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(223, 234, 238);
+}
+
+ .aboutmessage-container p {
+padding-left: 20px;
+line-height: 20px;
+
+}
+
+.aboutmessage-container h3{
+padding-left: 20px;
+padding-top: 10px;
+}
+
+#message-header{
+    color: #f15a29;
+}
+
+.aboutmessage-container h3{
+    color: #0b2c6a;
+}
+
+#message-container{
+    width: 600px;
+    text-align: justify;
+}
+
+.aboutmessage-img{
+    height: 100%;
+    width: 50%;
+
+}
+
+.aboutmessage-img img{
+    height: 100%;
+    width: 100%;
+}
+
+/* .about-members{
+    height: 300px;
+    width: 100%;
+    background-color: yellowgreen;
+} */
+
+
+
+@media screen and (max-width: 400px) {
+    .aboutmessage {
+      height: auto;
+      /* padding:10px 0; */
+      overflow: visible;
+    }
+  
+    .aboutmessage-section{
+     
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+      left: 0;
+      height: auto;
+      margin-bottom: 30px;
+    }
+
+    .aboutmessage-section1 {
+      
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 90%;
+        left: 0;
+        height: auto;
+        margin-bottom: 30px;
+    }
+  
+    .aboutmessage-container,
+    .aboutmessage-img {
+      position: relative;
+      left: 5%;
+      width: 100%;
+      height: auto;
+    }
+  
+    .aboutmessage-container {
+      background-color: #f0f8fb;
+      padding: 15px;
+    }
+  
+    #message-container {
+      width: 100%;
+      font-size: 14px;
+      text-align: justify;
+    }
+  
+    .aboutmessage-container p,
+    .aboutmessage-container h3 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    .aboutmessage-img img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      padding: 10px 0;
+    }
+  
+    #message-header {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  
+    .aboutmessage-container h3 {
+      font-size: 14px;
+    }
+  }
+  

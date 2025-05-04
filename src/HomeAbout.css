@@ -1,0 +1,131 @@
+
+.homeabout{
+    height: 590px;
+    width: 100%; 
+}
+.main-homeabout{
+    height: 580px;
+    width: 100%; 
+    display: flex;
+    /* background-color: white; */
+    position: absolute;
+}
+
+.homeabout1{
+    height: 100%;
+    width: 60%;
+    /* background-color: salmon; */
+}
+
+.homeabout1 h1{
+    position: relative;
+    top: 20%;
+    left: 10%;
+    width: 600px;
+    text-align: justify;
+    padding:0 10px;
+}
+
+.homeabout1 p{
+position: relative;
+top: 20%;
+left: 10%;
+width: 600px;
+text-align: justify;
+padding: 16px;
+}
+#about-head{
+    color: #f15a29;
+}
+
+#homeabout-btn{
+    position: relative;
+    top: 20%;
+    left: 16.5%;
+    height: 35px;
+    width: 130px;
+    padding:0 18px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; 
+     background-color: rgba(2, 2, 171, 0.8);
+     color: white;
+   border: none;
+   cursor: pointer;
+}
+
+#homeabout-icon{
+    width: 20px;
+    height: 18px;
+}
+
+
+.homeabout2{
+    height: 100%;
+    width: 40%;
+    /* background-color: rgb(150, 115, 111); */
+   
+}
+
+.homeabout2 img{
+    position: relative;
+    height: 85%;
+    width: 70%;
+    top: 8%;
+ /* left: 15%; */
+}
+
+@media screen and (max-width: 400px) {
+    .main-homeabout {
+      flex-direction: column;
+      height: auto;
+      position: static;
+    }
+  
+    .homeabout1,
+    .homeabout2 {
+      width: 100%;
+      height: auto;
+    }
+    .homeabout1 h1{
+        width: 90%;
+        left: 0;
+        top: 0;
+        margin: 0 auto;
+        height: auto;
+        font-size: 18px;
+    }
+    
+    .homeabout1 p {
+      width: 90%;
+      left: 0;
+      top: 0;
+      padding: 10px;
+      margin: 0 auto;
+      text-align: justify;
+      /* position: static; */
+      font-size: 14px;
+    }
+  
+    #homeabout-btn {
+        
+      position: static;
+      margin: 16px auto;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .homeabout2 img {
+      width: 90%;
+      height: 300px;
+      top: 0;
+      margin: 10px auto;
+      display: block;
+      position: static;
+    }
+  
+    .homeabout {
+      height: auto;
+    }
+  }
+  
