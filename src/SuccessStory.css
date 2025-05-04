@@ -127,7 +127,7 @@ cursor: pointer;
         }
       
         .home-para h1 {
-          font-size: 18px;
+          font-size: 16px;
           padding: 10px 15px;
         }
       
@@ -141,11 +141,13 @@ cursor: pointer;
         }
       
         .successstory-card {
-          position: static;
+          position: relative;
+          top: 0;
+          left: 0;
           width: 90%;
           max-width: 360px;
           height: auto;
-          margin: 10px auto;
+          margin: 0;
         }
       
         .successstory-img {
@@ -159,16 +161,16 @@ cursor: pointer;
       
         .card-button-story {
           padding: 10px 14px;
-          font-size: 1rem;
+          font-size: 16px;
         }
       
         .successstory-card h3 {
-          font-size: 1.1rem;
+          font-size: 16px;
           padding: 8px;
         }
       
         .successstory-card p {
-          font-size: 0.95rem;
+          font-size: 14px;
           padding: 8px;
         }
       }

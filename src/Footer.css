@@ -278,7 +278,7 @@ background-color:white;
     .footer-links h3,
     .footer-study h3,
     .footer-contact-us h3{
-        font-size: 18px;
+        font-size: 16px;
     }
   
     .footer-links ul,
@@ -302,10 +302,17 @@ background-color:white;
       text-align: center;
       display: flex;
       justify-content: center;
+      
       gap: 15px;
       padding: 8px 0;
       
     }
+
+    #footer-social-icon{
+padding-top: 10px;
+     height: 21px;
+     width: 21px;
+  }
   
     .copyright {
       flex-direction: column;

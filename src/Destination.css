@@ -114,10 +114,11 @@ text-align: center;
         left: 0;
         width: 92%;
         /* margin: 10 auto; */
-        /* padding: 10px 15px; */
+        padding: 0 15px;
         text-align: justify;
-        font-size: 24px;
+        font-size: 16px;
     }
+
 
     #homedestination-btn {
         top: 0;
@@ -130,11 +131,13 @@ text-align: center;
     }
     .destination-slider {
         width: 100%;
-        
+        overflow: visible;
+            height: 450px;
+            padding-bottom: 10px;
     }
 
     .destination-img {
-        height: 250px;
+        height: 350px;
         width: 100%;
         object-fit: cover;
     }

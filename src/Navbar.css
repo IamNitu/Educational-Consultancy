@@ -91,10 +91,14 @@ padding: 30px 10px;
 
 
   @media screen and (max-width: 400px) {
+    html, body {
+      overflow-x: hidden;
+    }
     .main-nav {
       flex-direction: column;
       height: auto;
       position: relative;
+      margin: 0;
 
     }
   
@@ -102,15 +106,17 @@ padding: 30px 10px;
       width: 100%;
       padding-left: 10px;
       text-align: center;
+   
     }
   
-    .navimg {
-      height: 120px;
+    .navimg  {
+     
+      height: 90px;
       width: 40%;
     }
   
     .child-div2 {
-     
+    
       width: 100%;
     }
 
@@ -159,6 +165,7 @@ padding: 30px 10px;
   
     .navlink.show {
       display: flex;
+     
     }
   
     #navlink {

@@ -34,23 +34,31 @@
 
 @media screen and (max-width: 400px) {
     .affiliateduni {
-      height: auto;
+      height:auto;
       padding: 10px 10px;
     }
 
     .affiliateduni-para p{
-        padding: 0;
+      padding-top: 10px;
+        /* padding: 0; */
         font-size: 14px;
     }
   
     .affiliateduni-para h1 {
-      font-size: 18px;
+      font-size: 16px;
+      padding: 5px;
     }
   
     .unilogo {
       flex-wrap: wrap;
       justify-content: center;
       gap: 15px;
+      padding-top: 12px;
+      padding-bottom: 10px;
+    }
+
+    #unilogo{
+      padding: 0;
     }
   
     .unilogo img {

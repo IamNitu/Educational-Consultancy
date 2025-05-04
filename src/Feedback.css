@@ -72,12 +72,12 @@
 
   @media screen and (max-width: 400px) {
     .feedback {
-      height: 520px;
+      height: 500px;
       /* padding: 1rem 0; */
     }
   
     .feedback-header h1 {
-      font-size: 18px;
+      font-size: 16px;
     }
   
     .feedback-card {
@@ -109,16 +109,18 @@
     #feedback-name {
       text-align: left;
       font-size: 12px;
+      padding-bottom: 10px;
     }
   
     .card-section {
       left: 0;
       width: 100%;
       padding: 0;
+      height: 420px;
     }
   
     .card-section .slick-dots {
-      bottom: 90px;
+      bottom: -10px;
     }
   
     .slick-slider > div {

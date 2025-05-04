@@ -37,6 +37,7 @@
     .testpreparationclass {
       height: auto;
       padding: 10px 0;
+      background-color:  rgb(223, 234, 238);;
     }
   
     .test-img {
@@ -48,12 +49,14 @@
     }
   
     .testclass-slider {
+      overflow: visible;
+      height: 325px;
       left: 0;
       padding: 0 10px;
     }
   
     .testclass-head h2 {
-      font-size: 18px;
+      font-size: 16px;
       padding-top: 2px;
     }
   

@@ -17,7 +17,7 @@ function Feedback() {
             name:'~John Doe',
         },
         {
-            imgsrc:'https://www.torrens.edu.au/-/media/project/laureate/apac/torrens/stories/international/how-to-transition-from-a-bachelors-to-masters-degree/international-masters-student-sm.png?rev=fa777c50ede2424eb72910035c2fd3f6',
+            imgsrc:'https://thumbs.dreamstime.com/b/female-college-student-happy-girl-european-university-scholarship-uni-91749887.jpg',
             description:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel accusantium molestiae fugiat excepturi asperiores similique aperiam ab officiis minus necessitatibus tenetur dolore, non cumque tempore maxime libero amet id dolores.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, sit!',
             name:'~Jane Doe',
         },
