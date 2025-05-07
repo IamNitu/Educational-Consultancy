@@ -88,6 +88,13 @@ function Blog() {
           </div>
         </div>
 
+        <div className="service-triangle">
+      <div className="service-triangle-orange"></div>
+    </div>
+    <div className="service-triangle-right">
+    <div className="service-triangle-blue"></div>
+    </div>
+
         <div className='blogs'>
         {cards.map((card,index)=>(
     <div key={index} className='blog-card'>

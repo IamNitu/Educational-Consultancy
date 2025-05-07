@@ -41,8 +41,11 @@
       flex-direction: column;
       align-items: center;
       height: 850px;
-      padding: 20px 0;
+      /* padding: 20px 0; */
       gap: 20px;
+      margin: 0;
+      position: relative !important;
+      top: -20px !important;
     }
   
     .testprep-card img {

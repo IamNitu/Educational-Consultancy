@@ -41,6 +41,15 @@ function Ielts() {
                             </div>
                             </div>
 
+                            <div className="service-triangle">
+      <div className="service-triangle-orange"></div>
+    </div>
+    <div className="service-triangle-right">
+    <div className="service-triangle-blue"></div>
+    </div>
+
+
+
         <div className='ielts-component'>
             <div className='ielts-header'>
 

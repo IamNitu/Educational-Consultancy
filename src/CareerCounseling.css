@@ -82,7 +82,9 @@
       position: relative;
       width: 90%;
       left: 5%;
-      padding-bottom: 15px;
+      padding-bottom: 2px;
+      margin: 0;
+      top: -40px;
     }
   
     .careercounseling-about,

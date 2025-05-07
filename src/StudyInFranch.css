@@ -269,16 +269,20 @@ width: 100%;
   @media screen and (max-width: 400px) {
     .franch-banner {
       height: auto;
-     
+     margin: 0;
+     position: absolute;
+     top: 53%;
     }
   
     .franch-container {
+     
       flex-direction: column;
       left: 0;
       width: 100%;
       padding: 10px;
       width: 90%;
       left: 2%;
+      
     }
   
     .franch-paragraph, .franch-box {

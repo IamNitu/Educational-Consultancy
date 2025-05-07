@@ -1,0 +1,148 @@
+.about-banner {
+    position: relative;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
+    overflow: hidden;
+    z-index: 1;
+  }
+
+.about-banner img{
+    background: cover;
+    width: 100%;
+    z-index: 0; /* base image */
+    position: relative;
+    height: 100%;
+}
+
+  .banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(5, 0, 50, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    z-index: 2;
+   
+  }
+
+  .about-banner-wrapper {
+    position: relative;
+  }
+  
+  .service-triangle {
+    position: absolute;
+    top: 460px;
+    left: 0;
+    width: 56%;
+    height: 99px;
+    background: #1a3084;
+    clip-path: polygon(0 0, 89% 100%, 0 50%);
+    z-index: 1;
+  }
+
+  .service-triangle-orange{
+    position: absolute;
+  bottom: 0;
+  left: 0;
+    clip-path: polygon(0 0, 89% 100%, 0 40%);
+    height: 75px;
+    width: 100%;
+    background-color: #ff6c00 ;
+    
+  }
+  .service-triangle-right {
+    position: absolute;
+    top: 460px;
+    right: 0;
+    width: 56%;
+    height: 99px;
+    background: #1a3084; 
+    clip-path: polygon(0 0, 89% 100%, 0 50%);
+    transform: scaleX(-1); 
+    z-index: 1;
+    
+  }
+  .service-triangle-blue {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background: #ff6c00; 
+    clip-path: polygon(0 0, 89% 100%, 0 40%);
+
+  }
+
+
+
+  @media screen and (max-width: 400px) {
+    .about-banner {
+      height: 250px;
+      clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+    }
+  
+    .about-banner img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  
+    .banner-overlay {
+      padding: 0 10px;
+    }
+  
+    .banner-text h1 {
+      font-size: 18px;
+    }
+  
+    .banner-text p {
+      font-size: 14px;
+    }
+  
+    .homestory{
+      position: relative !important;
+    top: -30px !important;
+    padding: 0;
+    }
+
+    .service-triangle,
+    .service-triangle-right {
+      /* top: 290px; */
+      width: 50%;
+      height: 60px;
+    }
+  
+    .service-triangle {
+      position: relative;
+      top: -60px;
+      clip-path: polygon(0 0, 100% 100%, 0 50%);
+    }
+  
+    .service-triangle-orange {
+      height: 45px;
+      clip-path: polygon(0 0, 100% 100%, 0 40%);
+    }
+  
+    .service-triangle-right {
+        top: 365px;
+      clip-path: polygon(0 0, 100% 100%, 0 50%);
+      transform: scaleX(-1);
+    }
+  
+    .service-triangle-blue {
+      height: 45px;
+      clip-path: polygon(0 0, 100% 100%, 0 40%);
+    }
+  }
+  

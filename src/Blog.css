@@ -68,6 +68,7 @@
       align-items: center;
       height: auto;
       /* padding: 10px; */
+      margin: 0;
     }
   
     .blog-card {
@@ -85,7 +86,7 @@
     #card-date {
 
       position: absolute;
-  top: 53%;       
+  top: 50%;       
   right: 0px;     
   height: 40px;
   width: 40px;

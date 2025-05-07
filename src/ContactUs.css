@@ -1,19 +1,19 @@
 
-.contact-container{
-    height: 570px;
+.contact-content{
+    height: 550px;
     width: 100%;
     background-color:white;
     margin-top: 20px;
     
 }
 
-.contact-container p{
+.contact-content p{
     text-align: center;
     padding-top: 10px;
     color: #f15a29;
 }
 
-.contact-container h1{
+.contact-content h1{
     text-align: center;
     padding-top: 10px;
     color: #0b2c6a;
@@ -57,7 +57,7 @@ background-color:#0b2c6a
 
 .contact-us h1{
     position: relative;
-    top: 20%;
+    top: 14%;
     left: 0%;
     /* text-align: center; */
     font-size: 2rem;
@@ -66,7 +66,7 @@ background-color:#0b2c6a
 }
 .contact-us p{
     position: relative;
-    top: 25%;
+    top: 18%;
     left: 16%;
     list-style-type:none;
    text-align: justify;
@@ -100,16 +100,18 @@ left: 5%;
 
 
 @media screen and (max-width: 400px) {
-    .contact-container {
+    .contact-content {
       height: auto;
-     
+     margin: 0;
+     position: relative;
+     top: -35px;
     }
   
-    .contact-container p {
+    .contact-content p {
       font-size: 14px;
     }
   
-    .contact-container h1 {
+    .contact-content h1 {
       font-size: 18px;
       padding: 5px 0;
     }
@@ -160,7 +162,7 @@ left: 5%;
     .iframe-map {
       position: relative;
       width: 100%;
-      height: 410px;
+      height: 300px;
       left: 0;
     }
   }

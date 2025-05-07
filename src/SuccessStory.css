@@ -126,9 +126,14 @@ cursor: pointer;
           padding: 0;
         }
       
+        .home-para p{
+          font-size: 14px;
+          padding-top: 20px;
+        }
+
         .home-para h1 {
           font-size: 16px;
-          padding: 10px 15px;
+          /* padding: 10px 15px; */
         }
       
         .story-card {

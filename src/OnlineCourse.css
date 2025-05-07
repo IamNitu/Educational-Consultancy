@@ -108,3 +108,165 @@ top: 50%;
     width: 100%;
    
 }
+
+.onlineblog-card{
+  border: 0.2px solid lightblue;
+  height: 410px;
+  width: 400px;
+
+}
+
+.onlineblog-card p{
+  position: relative;
+  top: -10%;
+  padding:0 14px;
+  text-align: justify;
+
+}
+
+#suggestedblog-date{
+  position: relative;
+  top:-10%;
+  left: 60%;
+  background-color: #f15a29;
+  border: 2px solid white;
+  height: 60px;
+  width: 10%;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  padding-top: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.suggestedblog-img{
+  height: 240px;
+  width: 100%;
+}
+
+
+
+@media (max-width: 400px) {
+    .freeonlinecourse {
+      height: auto;
+      /* padding-bottom: 50px; */
+    }
+  
+    .freecourse-section {
+      height: auto;
+      position: relative;
+    top: -10px;
+      left: 5;
+      width: 90%;
+      
+      margin: 0;
+    }
+  
+    .freecoourse-secion-img {
+      height: auto;
+      width: 100%;
+      text-align: center;
+      padding: 0;
+    }
+  
+    .freecoourse-secion-img img {
+      height: auto;
+      width: 100%;
+      
+    }
+
+    .freecoourse-secion-img p{
+        font-size: 14px;
+    }
+  
+    .freecoourse-secion-img h1 {
+      font-size: 16px;
+    }
+  
+    .freecoursesection-para,
+    .freecourse-component {
+      height: auto;
+      width: 100%;
+      
+    }
+.free-slider{
+  height: 550px;
+}
+  
+    .freecourse-component p {
+      left: 0;
+      width: 90%;
+      padding: 15px;
+      font-size: 14px;
+    }
+  
+    .freecoursesection-para p {
+      line-height: 20px;
+      font-size: 14px;
+      padding: 10px 0;
+    }
+  
+    .freecourse-slider {
+      height: 570px;
+      width: 100%;
+      padding: 0;
+      position: relative;
+      top: -10%;
+    }
+
+    /* .free-slider {
+      height: 600px;
+      width: 100%;
+      position: relative;
+     top: 30px;
+    } */
+
+    .free-slider-container{
+      height: 60px;
+      
+    }
+  
+    .free-slider-container h1,
+    .free-slider-container p {
+      font-size: 14px;
+      position: relative;
+      top: 30%;
+    }
+  
+    .slider-container {
+      height: 450px;
+      width: 100%;
+    }
+  
+
+    #suggestedblog-date{
+  position: relative;
+  top: -35px;
+  height: 45px;
+    }
+    .onlineblog-card p{
+      padding-top: 20px;
+   font-size: 14px;
+   line-height: 20px;
+    }
+    .suggestedblog-img {
+      width: 100%;
+      height: 250px;
+    }
+  
+    /* Adjust react-slick for 1 slide at a time */
+    .slick-slider .slick-slide {
+      padding: 0 -40px;
+    }
+  
+    .slick-dots li button:before {
+      font-size: 10px;
+    }
+  
+    .slick-prev,
+    .slick-next {
+      display: none !important; /* hide arrows for mobile */
+    }
+  }
+  
+

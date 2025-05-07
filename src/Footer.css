@@ -322,7 +322,13 @@ padding-top: 10px;
   
     .copyright p {
       font-size: 14px;
+      align-items: center;
       justify-content: center;
+    }
+
+    #copyright-icon{
+      height: 15px;
+      width: 15px;
     }
   }
   

@@ -17,7 +17,16 @@ function ContactUs() {
             </div>
           </div>
 
-    <div className='contact-container'>
+          <div className="service-triangle">
+      <div className="service-triangle-orange"></div>
+    </div>
+    <div className="service-triangle-right">
+    <div className="service-triangle-blue"></div>
+    </div>
+
+
+
+    <div className='contact-content'>
     <p>Contact Us</p>
     <h1>Happy Serving You</h1>
 

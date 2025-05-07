@@ -27,7 +27,7 @@ function OnlineCourse() {
         imgsrc:'https://www.universityofcalifornia.edu/sites/default/files/styles/article_default_banner/public/uc-irvine-students-tick.jpg?h=75334513&itok=GdwO3uwP',
         title:'Free Online Courses From Top Universities.',
         description:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde adipisci maiores itaque minus placeat molestias quibusdam assumenda magnam ea? Distinctio illum magnam consequuntur reprehenderit maxime!',
-        date:'21 Dec',
+        date:'21 Jun',
         
       },
     {
@@ -55,6 +55,16 @@ function OnlineCourse() {
       slidesToShow: 3,
       slidesToScroll: 1,
      
+
+      responsive: [
+        {
+          breakpoint: 480, // phones
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
+        }
+      ]
     }
 
 
@@ -70,6 +80,15 @@ function OnlineCourse() {
         </div>
       </div>
     </div>
+
+    <div className="service-triangle">
+      <div className="service-triangle-orange"></div>
+    </div>
+    <div className="service-triangle-right">
+    <div className="service-triangle-blue"></div>
+    </div>
+
+
 
     <div className='freecourse-section'>
     <div className='freecoourse-secion-img'>
@@ -105,18 +124,18 @@ function OnlineCourse() {
 <Slider {...settings}>
 
         {cards.map((card,index)=>(
-    <div key={index} className='blog-card'>
+    <div key={index} className='onlineblog-card'>
 
     <div className="card-image-wrapper">
 
-<img src={card.imgsrc} alt={card.alt} className='blog-img'/>
+<img src={card.imgsrc} alt={card.alt} className='suggestedblog-img'/>
 
 
  </div>
 
-<p id='card-date'>{card.date}</p>
+<p id='suggestedblog-date'>{card.date}</p>
 
-<p>{card.description}</p>
+<p id='blog-desc'>{card.description}</p>
     </div>
 ))}
 
