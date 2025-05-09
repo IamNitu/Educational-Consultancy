@@ -330,7 +330,8 @@ padding-top: 10px;
       height: 15px;
       width: 15px;
       position: relative;
-      left: 2%;
+      left: 5%;
+      top: -3px !important;
     }
   }
   

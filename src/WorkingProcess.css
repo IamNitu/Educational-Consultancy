@@ -134,7 +134,7 @@
   }
 
   .process-title {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     margin:6px 0 10px 0;
   }
@@ -149,8 +149,8 @@
     border-left-width: 2px;
   }
 
-  .step-heading {
-    font-size: 16px;
+  .step-heading h4{
+    font-size: 14px;
   }
 
   .step-description {

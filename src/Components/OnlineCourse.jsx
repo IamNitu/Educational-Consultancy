@@ -75,8 +75,8 @@ function OnlineCourse() {
     <img src={aboutus} alt="" />
       <div className="banner-overlay">
         <div className="banner-text">
-          <h1>Free Online Courses From Top Universities</h1>
-          <p>Home / Blog / Free Online Courses From Top Universities</p>
+          <h1>Free Courses From Top Universities</h1>
+          <p>Home / Blog / Free Courses From Top Universities</p>
         </div>
       </div>
     </div>

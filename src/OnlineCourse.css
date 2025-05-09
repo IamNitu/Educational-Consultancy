@@ -220,7 +220,7 @@ top: 50%;
     }
 
     .free-slider-container{
-      height: 60px;
+      height: 40px;
       
     }
   
@@ -259,7 +259,7 @@ top: 50%;
 
     .slick-dots li button{
       position: relative;
-      top: -40px;
+      /* top: -40px; */
     }
   
     .slick-dots li button:before {
