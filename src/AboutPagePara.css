@@ -73,7 +73,7 @@
 @media screen and (max-width: 400px) {
     .aboutpagepara {
       flex-direction: column;
-      height: 815px;
+      height: 860px;
       padding: 20px 0px 0px;
     }
   

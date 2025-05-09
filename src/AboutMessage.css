@@ -80,6 +80,8 @@ padding-top: 10px;
       height: auto;
       /* padding:10px 0; */
       overflow: visible;
+      position: relative;
+      top: -40px;
     }
   
     .aboutmessage-section{
@@ -87,6 +89,7 @@ padding-top: 10px;
       flex-direction: column;
       align-items: center;
       width: 90%;
+     
       left: 0;
       height: auto;
       margin-bottom: 30px;
@@ -97,9 +100,10 @@ padding-top: 10px;
         flex-direction: column-reverse;
         align-items: center;
         width: 90%;
+        top: -15px;
         left: 0;
         height: auto;
-        margin-bottom: 30px;
+      
     }
   
     .aboutmessage-container,
