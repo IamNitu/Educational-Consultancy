@@ -149,13 +149,14 @@ top: 50%;
 @media (max-width: 400px) {
     .freeonlinecourse {
       height: auto;
+     
       /* padding-bottom: 50px; */
     }
   
     .freecourse-section {
       height: auto;
       position: relative;
-    top: -10px;
+    top: -30px;
       left: 5;
       width: 90%;
       
@@ -207,19 +208,16 @@ top: 50%;
     }
   
     .freecourse-slider {
-      height: 570px;
+      height: 580px;
       width: 100%;
       padding: 0;
       position: relative;
-      top: -10%;
+      top: 0px !important;
     }
 
-    /* .free-slider {
-      height: 600px;
-      width: 100%;
-      position: relative;
-     top: 30px;
-    } */
+    .free-slider {
+      height: 500px;
+    }
 
     .free-slider-container{
       height: 60px;
@@ -258,8 +256,14 @@ top: 50%;
     .slick-slider .slick-slide {
       padding: 0 -40px;
     }
+
+    .slick-dots li button{
+      position: relative;
+      top: -40px;
+    }
   
     .slick-dots li button:before {
+     
       font-size: 10px;
     }
   

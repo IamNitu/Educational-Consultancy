@@ -127,21 +127,23 @@ left: 5%;
     .contact-info,
     .contact-map {
       width: 100%;
-      height: auto;
+      height: 240px;
       margin-right: 0;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
   
     .contact-us {
+      position: relative;
       width: 95%;
       left: 0;
-      top: 0;
-      padding: 10px;
+      top: 14px;
+      height: 240px;
+      /* padding: 10px; */
     }
   
     .contact-us h1 {
       font-size: 18px;
-      top: 0;
+      top: 4px;
       left: 0;
       text-align: center;
     }
@@ -149,8 +151,9 @@ left: 5%;
     .contact-us p {
       font-size: 14px;
       top: 10px;
-      left: 0;
-      padding: 8px 0;
+      left: 10px;
+      padding: 10px 10px;
+     
     }
   
     #contact-us-icon {
@@ -162,8 +165,8 @@ left: 5%;
     .iframe-map {
       position: relative;
       width: 100%;
-      height: 300px;
       left: 0;
+      top: 20px;
     }
   }
   

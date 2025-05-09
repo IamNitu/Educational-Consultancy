@@ -127,11 +127,13 @@ padding-top: 10px;
       padding-right: 0;
     }
   
+
     .aboutmessage-img img {
       width: 100%;
       height: auto;
       object-fit: contain;
       padding: 10px 0;
+      
     }
   
     #message-header {

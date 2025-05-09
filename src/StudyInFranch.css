@@ -267,11 +267,13 @@ width: 100%;
 
 
   @media screen and (max-width: 400px) {
+  
     .franch-banner {
       height: auto;
      margin: 0;
      position: absolute;
      top: 53%;
+     overflow-x: hidden;
     }
   
     .franch-container {
@@ -288,9 +290,13 @@ width: 100%;
     .franch-paragraph, .franch-box {
       width: 100%;
     }
+
+    .franch-img{
+      height: 390px;
+    }
   
     .franch-img h1 {
-      font-size: 18px;
+      font-size: 16px;
     }
   
     .franch-img img {
@@ -303,7 +309,7 @@ width: 100%;
     .franch-program h2,
     .franch-work h2,
     .franch-admission h2{
-        font-size: 18px;
+        font-size: 16px;
         padding-top: 15px;
         padding-bottom: 10px;
     }
@@ -360,7 +366,7 @@ width: 100%;
   }
   
     .franch-header h2 {
-      font-size: 18px;
+      font-size: 16px;
       padding: 8px 16px;
     }
   

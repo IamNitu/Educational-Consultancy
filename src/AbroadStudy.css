@@ -80,6 +80,7 @@ background-color: white;
     .abroadstudy-container {
       height: auto; 
       position: relative;
+      top: -30px !important;
       left: 5%;
       width: 90%;
       padding-bottom: 15px;
@@ -89,7 +90,7 @@ background-color: white;
        
       left: 0;
       width: 100%;
-     
+     margin: 0;
     }
   
     .abroadstudy-card {
@@ -114,7 +115,7 @@ background-color: white;
     }
    
     .abroadstudy-class h1 {
-        font-size: 18px;
+        font-size: 16px;
     }
   }
   

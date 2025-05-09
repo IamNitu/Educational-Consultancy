@@ -35,18 +35,19 @@ function Ielts() {
                           <img src={aboutus} alt="" />
                             <div className="banner-overlay">
                               <div className="banner-text">
-                                <h1>International English Language Testing System</h1>
+                                <h1>International Language Testing System</h1>
                                 <p>Home / Test Preparation class / IELTS</p>
                               </div>
                             </div>
                             </div>
 
-                            <div className="service-triangle">
-      <div className="service-triangle-orange"></div>
-    </div>
-    <div className="service-triangle-right">
-    <div className="service-triangle-blue"></div>
-    </div>
+                            <div className='ielts-triangle'>
+                              <div className='ielts-triangle-right'></div>
+                            </div>
+                            <div className='ielts-triangle-one'>
+                              <div className='ielts-triangle-left'></div>
+                            </div>
+
 
 
 

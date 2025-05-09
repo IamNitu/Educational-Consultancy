@@ -103,7 +103,7 @@
     }
   
     .banner-text h1 {
-      font-size: 18px;
+      font-size: 16px;
     }
   
     .banner-text p {
@@ -112,7 +112,7 @@
   
     .homestory{
       position: relative !important;
-    top: -30px !important;
+    top: -50px !important;
     padding: 0;
     }
 
@@ -122,6 +122,8 @@
       width: 50%;
       height: 60px;
     }
+
+
   
     .service-triangle {
       position: relative;
