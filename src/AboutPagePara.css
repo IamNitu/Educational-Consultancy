@@ -74,7 +74,7 @@
     .aboutpagepara {
       flex-direction: column;
       height: 860px;
-      padding: 20px 0px 0px;
+      /* padding: 20px 0px 0px; */
     }
   
     .aboutpage-section {
@@ -85,7 +85,7 @@
     .aboutpage-section h1 {
         position: relative;
         left: 5%;
-      font-size: 18px;
+      font-size: 16px;
       width: 90%;
       padding: 5px 0;
     }
