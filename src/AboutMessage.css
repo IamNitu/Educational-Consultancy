@@ -124,6 +124,10 @@ padding-top: 10px;
       font-size: 14px;
       text-align: justify;
     }
+
+     .aboutmessage-container p{
+      font-size: 12px;
+     }
   
     .aboutmessage-container p,
     .aboutmessage-container h3 {
