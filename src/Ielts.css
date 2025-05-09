@@ -347,7 +347,8 @@ width: 100%;
   
     .ielts-para {
       flex-direction: column;
-      height: 230vh;
+      /* height: 230vh; */
+      height: auto;
       padding-top: 0px;
     }
 
