@@ -1,7 +1,10 @@
 import React from 'react';
+import {useNavigate} from 'react-router-dom';
 import {MoveRight} from 'lucide-react';
 
 function LatestBlog() {
+
+ const navigate = useNavigate();
 
 const cards=[
     {
@@ -43,7 +46,7 @@ const cards=[
     </div>
 
     <div className='latest-btn'>
-<button id='latest-btn'>Read More <MoveRight id='latest-icon'/></button>
+<button id='latest-btn' onClick={() => navigate('/blog')}>Read More <MoveRight id='latest-icon'/></button>
     </div>
         </div>
     </>

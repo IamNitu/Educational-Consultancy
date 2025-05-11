@@ -1,6 +1,15 @@
 import React from 'react';
 
 const ContactForm = () => {
+  
+
+    const handleSubmit = (e) => {
+    e.preventDefault(); 
+    alert('Message sent');
+   
+  };
+
+
   return (
     <div className="contact-container">
       <div className="banner">
@@ -8,7 +17,7 @@ const ContactForm = () => {
       </div>
       <div className="form-wrapper">
         <h3>Send Us A Message</h3>
-        <form className="contact-form">
+        <form className="contact-form" onSubmit={handleSubmit}>
           <div className="form-group double">
             <div className="form-field">
               <label>Name*</label>

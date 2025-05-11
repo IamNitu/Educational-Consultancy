@@ -40,7 +40,7 @@ function Navbar() {
             <NavLink to="/services" id='navlink'>Services</NavLink>
             <NavLink to="/preparationclass" id='navlink'>Preparation Class</NavLink>
             <NavLink to="/blog" id='navlink'>Blog</NavLink>
-            <NavLink to="/successstories" id='navlink'>Success Stories</NavLink>
+            <NavLink to="/successstories" id='navlink'>Gallery</NavLink>
             <NavLink to="/contactus" id='navlink'>Contact Us</NavLink>
             </div>
   </div>

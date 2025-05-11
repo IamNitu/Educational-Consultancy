@@ -25,8 +25,9 @@ function Ielts() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
+    alert('Class Booked');
   };
+
 
   return (
     <>
