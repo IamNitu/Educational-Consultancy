@@ -4,7 +4,7 @@
     width: 100%;
     background-color:white;
     overflow: hidden;
-   
+    font-family: "Merriweather", serif;
 }
 
 .aboutmessage-section{
@@ -34,13 +34,14 @@
 
  .aboutmessage-container p {
 padding-left: 20px;
-line-height: 20px;
-
+line-height: 18px;
+font-size: 12px;
 }
 
 .aboutmessage-container h3{
 padding-left: 20px;
 padding-top: 10px;
+font-size: 14px;
 }
 
 #message-header{
@@ -121,7 +122,7 @@ padding-top: 10px;
   
     #message-container {
       width: 100%;
-      font-size: 14px;
+      font-size: 12px;
       text-align: justify;
     }
 
@@ -145,7 +146,7 @@ padding-top: 10px;
     }
   
     #message-header {
-      font-size: 18px;
+      font-size: 14px;
       font-weight: bold;
     }
   

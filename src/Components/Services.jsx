@@ -6,7 +6,7 @@ import aboutus from '/aboutus.webp';
 function Services() {
   return (
    <>
-    <div>
+    <div className='our-service'>
        <div className="about-banner">
           <img src={aboutus} alt="" />
             <div className="banner-overlay">

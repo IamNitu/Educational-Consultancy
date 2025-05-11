@@ -1,7 +1,7 @@
 
 .gallery-container {
     text-align: center;
-
+ font-family: "Merriweather", serif;
   }
 
   .gallery-component{
@@ -14,13 +14,13 @@
   
   .gallery-subtitle {
     color: orange;
-    /* font-size: 14px; */
+    font-size: 14px;
     margin-top: 30px;
     margin-bottom: 5px;
   }
   
   .gallery-title {
-    font-size: 28px;
+    font-size: 25px;
     color: #003ba4;
     margin-bottom: 30px;
   }
@@ -75,7 +75,7 @@
     width: 100%;
     padding: 5px 0;
     color: white;
-    font-size: 16px;
+    font-size: 12px;
     text-align: center;
   }
   
@@ -108,16 +108,17 @@
       width: 100%;
       /* padding: 0 10px; */
       position: relative;
-      top: -35px;
+      top: -40px;
     }
   
     .gallery-title {
-      font-size: 18px;
+      font-size: 14px;
       margin-bottom: 10px;
     }
 
     .gallery-subtitle{
       margin: 10px 0;
+      font-size: 12px;
     }
   
     .gallery-grid {
@@ -139,7 +140,7 @@
     }
   
     .gallery-caption {
-      font-size: 14px;
+      font-size: 12px;
       padding: 4px 0;
     }
   
@@ -148,8 +149,6 @@
       font-size: 14px;
     }
   
-    .gallery-subtitle {
-      font-size: 14px;
-    }
+   
   }
   

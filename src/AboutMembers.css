@@ -43,6 +43,7 @@
     padding-top: 20px;
     text-align: center;
     color: #0b2c6a;
+    font-size: 14px;
 }
 
 #aboutmember-img1 p, 
@@ -52,6 +53,7 @@
     padding-top: 5px;
     text-align: center;
     color: #f15a29;
+    font-size: 12px;
 }
 
 #aboutmember-img2{
@@ -124,7 +126,7 @@
     #aboutmember-img2 h2,
     #aboutmember-img3 h2,
     #aboutmember-img4 h2 {
-      font-size: 16px;
+      font-size: 14px;
       /* margin-top: 10px; */
     }
   
@@ -132,7 +134,7 @@
     #aboutmember-img2 p,
     #aboutmember-img3 p,
     #aboutmember-img4 p {
-      font-size: 14px;
+      font-size: 12px;
     }
   }
   

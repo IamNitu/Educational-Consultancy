@@ -1,4 +1,6 @@
-
+.contactus{
+   font-family: "Merriweather", serif;
+}
 .contact-content{
     height: 550px;
     width: 100%;
@@ -11,13 +13,14 @@
     text-align: center;
     padding-top: 10px;
     color: #f15a29;
+    font-size: 14px;
 }
 
 .contact-content h1{
     text-align: center;
     padding-top: 10px;
     color: #0b2c6a;
-    
+    font-size: 25px;
 }
 
 .contact-section{
@@ -60,7 +63,7 @@ background-color:#0b2c6a
     top: 14%;
     left: 0%;
     /* text-align: center; */
-    font-size: 2rem;
+    font-size: 14px;
     font-weight: bold;
     color: white;
 }
@@ -72,7 +75,7 @@ background-color:#0b2c6a
    text-align: justify;
   color: white;
     padding-top: 15px;
-    font-size: 1.02rem;
+    font-size: 12px;
     display: flex;
     gap: 0.5rem;
     align-items: center;
@@ -81,8 +84,8 @@ background-color:#0b2c6a
 #contact-us-icon{
     background-color: white;
     color: #0b2c6a;
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
     padding: 5px;
 }
 
@@ -104,15 +107,15 @@ left: 5%;
       height: auto;
      margin: 0;
      position: relative;
-     top: -35px;
+     top: -42px;
     }
   
     .contact-content p {
-      font-size: 14px;
+      font-size: 12px;
     }
   
     .contact-content h1 {
-      font-size: 18px;
+      font-size: 14px;
       padding: 5px 0;
     }
   
@@ -142,14 +145,14 @@ left: 5%;
     }
   
     .contact-us h1 {
-      font-size: 18px;
+      font-size: 14px;
       top: 4px;
       left: 0;
       text-align: center;
     }
   
     .contact-us p {
-      font-size: 14px;
+      font-size: 12px;
       top: 10px;
       left: 10px;
       padding: 10px 10px;
@@ -157,8 +160,8 @@ left: 5%;
     }
   
     #contact-us-icon {
-      height: 21px;
-      width: 21px;
+      height: 15px;
+      width: 15px;
       padding: 4px;
     }
   

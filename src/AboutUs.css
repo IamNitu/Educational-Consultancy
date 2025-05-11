@@ -1,3 +1,7 @@
+.about-banner-wrapper{
+   font-family: "Merriweather", serif;
+}
+
 .about-banner {
   position: relative;
   height: 400px;
@@ -81,12 +85,12 @@
 }
 
 .banner-text h1 {
-  font-size: 2.5rem;
+  font-size: 14px;
   margin: 0;
 }
 
 .banner-text p {
-  font-size: 1rem;
+  font-size: 12px;
   margin-top: 0.5rem;
 }
 
@@ -125,11 +129,11 @@
   }
 
   .banner-text h1 {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .banner-text p {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .banner-triangle,

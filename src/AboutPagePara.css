@@ -4,6 +4,7 @@
     width: 100%;
     background-color:white;
     display: flex;
+      font-family: "Merriweather", serif;
 }
 
 .aboutpage-section{
@@ -16,19 +17,21 @@
 
 #aboutpage-section{
     color: #f15a29;
+    font-size: 12px;
 }
 
 #aboutpage-paragraph{
     width: 680px;
-    line-height: 22px;
+    line-height: 18px;
     padding-top: 10px;
+    font-size: 12px;
 }
 
 .aboutpage-section h1{
     color: #0b2c6a;
     width: 600px;
     padding-top: 10px;
-
+font-size: 25px;
 }
 
 
@@ -85,7 +88,7 @@
     .aboutpage-section h1 {
         position: relative;
         left: 5%;
-      font-size: 16px;
+      font-size: 14px;
       width: 90%;
       padding: 5px 0;
     }
@@ -93,14 +96,14 @@
     #aboutpage-section  {
         position: relative;
       left: 5%;
-      font-size: 14px;
+      font-size: 12px;
     }
   
     #aboutpage-paragraph {
       width: 90%;
       position: relative;
       left: 5%;
-      font-size: 14px;
+      font-size: 12px;
       line-height: 18px;
     }
   

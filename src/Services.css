@@ -1,3 +1,7 @@
+.our-service{
+  font-family: "Merriweather", serif;
+}
+
 .about-banner {
     position: relative;
     height: 400px;
@@ -112,7 +116,7 @@
   
     .homestory{
       position: relative !important;
-    top: -50px !important;
+    top: -55px !important;
     padding: 0;
     }
 
