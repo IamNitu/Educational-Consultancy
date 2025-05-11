@@ -264,6 +264,7 @@ background-color:white;
       position: static;
       text-align: center;
       /* margin-top: 10px; */
+      font-size: 16px;
     }
   
     .footer-links ul,
@@ -273,12 +274,6 @@ background-color:white;
       text-align: center;
       left: 0;
       font-size: 14px;
-    }
-
-    .footer-links h3,
-    .footer-study h3,
-    .footer-contact-us h3{
-        font-size: 16px;
     }
   
     .footer-links ul,
@@ -297,6 +292,7 @@ background-color:white;
     .footer-social{
         padding-top: 20px;
     }
+    
     .footer-social-icon {
       position: static;
       text-align: center;
