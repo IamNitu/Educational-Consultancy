@@ -102,6 +102,9 @@ padding: 30px 10px;
 
     }
   
+    #header{
+      height: 64px;
+    }
     .child-div1 {
       width: 100%;
       padding-left: 10px;
@@ -111,8 +114,8 @@ padding: 30px 10px;
   
     .navimg  {
      
-      height: 90px;
-      width: 40%;
+      height: 70px;
+      width: 30%;
     }
   
     .child-div2 {
@@ -121,18 +124,25 @@ padding: 30px 10px;
     }
 
     #header p, #nav-icon{
-      font-size: 14px;
+      font-size: 12px;
     }
   
     .header-info {
       flex-direction: column;
       align-items: flex-start;
-      padding: 10px;
+      padding: 6px 10px;
+      width: 50%;
     }
   
     .header-info p {
-      line-height: 24px;
-      font-size: 0.9rem;
+      line-height: 18px;
+    
+     
+    }
+
+    #nav-icon{
+     height: 12px;
+     width: 12px;
     }
   
     .grandchild-div2 {
@@ -143,16 +153,16 @@ padding: 30px 10px;
     .hamburger {
       display: block;
       position: absolute;
-      top: -80px;
+      top: -68px;
       right: 5px;
       z-index: 1000;
     }
   
     .navlink {
       position: absolute;
-      top: 0; 
+      top: 0;
       right: 0;
-      height: 400px;
+      height: 450px;
       width: 90%;
       background-color: white;
       flex-direction: column;
@@ -160,6 +170,7 @@ padding: 30px 10px;
       display: none;
       z-index: 1100;
       padding: 10px 20px;
+      
       /* overflow-y: auto; */
     }
   

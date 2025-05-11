@@ -137,7 +137,7 @@
     }
   
     .service-triangle-right {
-        top: 365px;
+        top: 327px;
       clip-path: polygon(0 0, 100% 100%, 0 50%);
       transform: scaleX(-1);
     }
