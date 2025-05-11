@@ -30,7 +30,7 @@ function StudyInFranch() {
 
   return (
     <>
-        <div>
+        <div className='franch-div'>
         <div className="about-banner">
                               <img src={aboutus} alt="" />
                                 <div className="banner-overlay">

@@ -267,12 +267,16 @@ width: 100%;
 
 
   @media screen and (max-width: 400px) {
+
+    .franch-div{
+      height: 250px;
+    }
   
     .franch-banner {
       height: auto;
      margin: 0;
      position: absolute;
-     top: 53%;
+     top: 49%;
      overflow-x: hidden;
     }
   
