@@ -2,12 +2,14 @@
     height: 520px;
     width: 100%;
     background-color:white;
+      font-family: "Merriweather", serif;
 }
 
 .feedback-header{
     text-align: center;
 }
 .feedback-header p{
+  font-size: 14px;
     padding-top: 10px;
     color: #f15a29;
 }
@@ -15,6 +17,7 @@
     padding-top: 10px; 
     padding-bottom: 10px; 
     color: #0b2c6a;
+    font-size: 25px;
 }
 
 
@@ -46,8 +49,10 @@
   left: 55%;
   width: 270px;
   text-align: justify;
-  line-height: 23px;
+  line-height: 20px;
+   font-size: 12px;
 }
+
 #feedback-name{
   position: relative;
   top: -80%;
@@ -55,7 +60,7 @@
   padding-top: 15px;
   text-align: justify;
   color: #0b2c6a;
-  font-size: 1rem;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -76,8 +81,12 @@
       /* padding: 1rem 0; */
     }
   
+        .feedback-header p{
+          font-size: 12px;
+        }
+
     .feedback-header h1 {
-      font-size: 16px;
+      font-size: 14px;
     }
   
     .feedback-card {

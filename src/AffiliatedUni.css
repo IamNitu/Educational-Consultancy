@@ -2,6 +2,7 @@
     height: 300px;
     width:100%;
     background-color: rgb(223, 234, 238);
+    font-family: "Merriweather", serif;
 }
 
 .affiliateduni-para{
@@ -10,10 +11,12 @@
 .affiliateduni-para p{
    padding-top: 30px;
    color: #f15a29;
+   font-size: 14px;
 }
 .affiliateduni-para h1{
     padding-top: 10px;
     color: #0b2c6a;
+font-size: 25px;
 }
 
 .unilogo{
@@ -50,6 +53,7 @@
     }
   
     .unilogo {
+      width: 94%;
       flex-wrap: wrap;
       justify-content: center;
       gap: 15px;
@@ -67,9 +71,9 @@
       height: 50px;
     }
   
-    .unilogo img:nth-child(n+4) {
+    /* .unilogo img:nth-child(n+4) {
       width: 45%; 
-    }
+    } */
   }
   
   

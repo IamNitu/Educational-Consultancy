@@ -3,6 +3,7 @@
     height: 1030px;
     width: 100%;
     background-color: white;
+     font-family: "Merriweather", serif;
 }
 
 .homestory-head{
@@ -13,17 +14,17 @@
 position: relative;
 text-align: center;
 top: 0;
-left: 70%;
+left: 90%;
 padding-top:20px;
 }
 
 .home-para p{
-    font-size: 1.02rem;
+    font-size: 14px;
     color: #f15a29;
 }
 .home-para h1{
     padding-top: 10px;
-font-size: 2rem;
+font-size: 25px;
 color: rgba(2, 2, 171, 0.8);
 }
 
@@ -51,11 +52,12 @@ cursor: pointer;
     text-align: center;
     padding: 10px;
     color: rgba(2, 2, 171, 0.8);
+    font-size: 14px;
 }
 .successstory-card p{
     text-align: center;
     padding: 10px;
-   
+   font-size: 12px;
 }
 
 .successstory-img{
@@ -127,12 +129,12 @@ cursor: pointer;
         }
       
         .home-para p{
-          font-size: 14px;
+          font-size: 12px;
           padding-top: 20px;
         }
 
         .home-para h1 {
-          font-size: 16px;
+          font-size: 14px;
           /* padding: 10px 15px; */
         }
       
@@ -170,12 +172,12 @@ cursor: pointer;
         }
       
         .successstory-card h3 {
-          font-size: 16px;
+          font-size: 14px;
           padding: 8px;
         }
       
         .successstory-card p {
-          font-size: 14px;
+          font-size: 12px;
           padding: 8px;
         }
       }

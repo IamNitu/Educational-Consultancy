@@ -2,6 +2,8 @@
 .main-homepage{
     height: 600px;
     width: 100%;
+    font-family: "Merriweather", serif;
+
 }
 
 .homepage{
@@ -19,19 +21,21 @@ width: 100%;
  position: relative;   
  top:-60%;
  left: 6%;
- width: 600px;
+ width: 550px;
  color: white;
- font-size: 2.5rem;
+ font-size: 30px;
 }
 .homepage p{
  position: relative;   
  top:-60%;
  left: 6%;
- width: 500px;
+ width: 470px;
  padding-top: 20px;
- font-size: 1.05rem;
+ font-size: 12px;
+ line-height: 18px;
  color: white;
  font-weight: lighter;
+ text-align: justify;
 }
 
 @media screen and (max-width: 400px) {
@@ -61,13 +65,13 @@ width: 100%;
     }
   
     .homepage h1 {
-      font-size: 16px;
+      font-size: 14px;
      
     }
   
     .homepage p {
-      font-size:14px;
-      padding-top: 40px;
+      font-size:12px;
+      padding-top: 30px;
       
     }
   }

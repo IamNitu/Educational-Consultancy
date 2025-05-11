@@ -2,6 +2,7 @@
     height: 600px;
     width: 100%;
     background-color:white;
+    font-family: "Merriweather", serif;
 }
 
 .latest-para{
@@ -10,11 +11,13 @@
 .latest-para p{
   padding-top: 10px;
   color: #f15a29;
+  font-size: 14px;
 }
 .latest-para h1{
     padding-top: 10px;
     padding-bottom: 10px;
     color: #0b2c6a;
+    font-size: 25px;
 }
 
 .latest-card{
@@ -33,11 +36,13 @@
 .latestblog-card h3{
   padding: 12px;
   color: #0b2c6a;
+  font-size: 14px;
 }
 .latestblog-card p{
   padding:0 14px;
   text-align: justify;
-
+font-size: 12px;
+line-height: 18px;
 }
 
 .latestblog-img{
@@ -103,7 +108,8 @@ cursor: pointer;
   .latestblog-card p{
     text-align: justify;
     padding-bottom: 10px;
-    font-size: 14px;
+    font-size: 12px;
+   
   }
 
   .latestblog-img {

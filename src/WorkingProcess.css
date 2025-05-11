@@ -6,6 +6,8 @@
   background: #fff;
   padding: 2rem;
   position: relative;
+  font-family: "Merriweather", serif;
+
 }
 
 .left-section {
@@ -35,7 +37,7 @@
 }
 
 .process-subtitle {
-  font-size: 0.875rem;
+  font-size: 12px;
   color: #f15a29;
   text-transform: uppercase;
   font-weight: 500;
@@ -43,7 +45,7 @@
 }
 
 .process-title {
-  font-size: 2rem;
+  font-size: 25px;
   font-weight: 700;
   color: #0b2c6a;
   margin-bottom: 2rem;
@@ -75,20 +77,20 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  font-size: 0.875rem;
+  font-size: 12px;
   flex-shrink: 0;
   margin-top: 4px;
 }
 
 .step-heading {
-  font-size: 1.03rem;
+  font-size: 14px;
   color: #0b2c6a;
   font-weight: 600;
   margin-bottom: 0.25rem;
 }
 
 .step-description {
-  font-size: 0.95rem;
+  font-size: 12px;
   /* color: #4b4b4b; */
   color: black;
   line-height: 1.5;
@@ -128,13 +130,13 @@
   }
 
   .process-subtitle {
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     margin-top: 1rem;
   }
 
   .process-title {
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     margin:6px 0 10px 0;
   }
@@ -154,13 +156,13 @@
   }
 
   .step-description {
-    font-size: 14px;
+    font-size: 12px;
     padding-right: 0;
   }
 
   .step-index {
     width: 28px;
     height: 28px;
-    font-size: 14px;
+    font-size: 12px;
   }
 }

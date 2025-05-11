@@ -4,8 +4,7 @@
     height: 650px;
     width: 100%;
     display: flex;
-    /* background-color: red; */
-   
+    font-family: "Merriweather", serif;
 }
 
 .destination-about{
@@ -21,6 +20,8 @@
     width: 370px;
     text-align: justify;
     padding: 0 10px;
+    font-size: 12px;
+    line-height: 18px;
 }
 
 #destination-para{
@@ -31,11 +32,11 @@
     position: relative;
     top:15%;
     left:18%;
-    width: 320px;
+    width: 280px;
     text-align: justify;
     padding: 10px;
     color: rgba(2, 2, 171, 0.8);
-    /* font-size: 2rem; */
+    font-size: 25px;
 }
 
 #homedestination-btn{
@@ -81,7 +82,8 @@
 }
 #hello{
     position: relative;
-    
+    font-size: 14px;
+    top: 10px;
     left: 15%;
 text-align: center;
 }
@@ -106,7 +108,7 @@ text-align: center;
         margin: 10 auto;
         padding: 10px 15px;
         text-align: justify;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .destination-about h1{
@@ -116,7 +118,7 @@ text-align: center;
         /* margin: 10 auto; */
         padding: 0 15px;
         text-align: justify;
-        font-size: 16px;
+        font-size: 14px;
     }
 
 
@@ -146,7 +148,7 @@ text-align: center;
         left: 0;
         text-align: center;
         margin-top: 10px;
-        font-size: 1rem;
+        font-size: 14px;
     }
 
     .slick-slide > div {
