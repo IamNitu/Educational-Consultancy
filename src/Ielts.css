@@ -447,7 +447,7 @@ width: 100%;
       position:relative;
       width: 100%;
       height: 50px;
-      top: -5%;
+      top: -6%;
       clip-path: polygon(0 0, 51% 100%, 0 50%);
     
     }
@@ -455,7 +455,7 @@ width: 100%;
       position:relative;
       width: 100%;
       height: 50px;
-      top: -2.5%;
+      top: -3%;
       clip-path: polygon(0 0, 51% 100%, 0 50%);
     
     }

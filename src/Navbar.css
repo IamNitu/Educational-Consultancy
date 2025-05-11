@@ -153,16 +153,17 @@ padding: 30px 10px;
     .hamburger {
       display: block;
       position: absolute;
-      top: -68px;
+      top: -58px;
       right: 5px;
       z-index: 1000;
+      padding: 10px 20px;
     }
   
     .navlink {
       position: absolute;
       top: 0;
       right: 0;
-      height: 450px;
+      height: 350px;
       width: 90%;
       background-color: white;
       flex-direction: column;
@@ -171,7 +172,7 @@ padding: 30px 10px;
       z-index: 1100;
       padding: 10px 20px;
       
-      /* overflow-y: auto; */
+      overflow-y: auto;
     }
   
     .navlink.show {
