@@ -24,7 +24,7 @@ function StudyInFranch() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
+    alert('Appliction Sent');
     
   };
 
