@@ -391,8 +391,9 @@ width: 100%;
         padding-bottom: 10px;
     }
 
-    #ielts-parag p,#ielts-paragraph{
-        font-size: 14px;
+    #ielts-parag p{
+        font-size: 12px;
+        line-height: 18px;
     }
   
     .ielts-icon {

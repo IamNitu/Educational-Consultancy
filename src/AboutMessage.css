@@ -82,7 +82,8 @@ font-size: 14px;
       /* padding:10px 0; */
       overflow: visible;
       position: relative;
-      top: -20px;
+      top: -25px;
+        background-color:#f0f8fb;
     }
   
     .aboutmessage-section{
@@ -113,11 +114,12 @@ font-size: 14px;
       left: 5%;
       width: 100%;
       height: auto;
+     
     }
   
     .aboutmessage-container {
       background-color: #f0f8fb;
-      padding: 15px;
+      padding: 15px 15px 0 15px;
     }
   
     #message-container {
