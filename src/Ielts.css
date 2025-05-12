@@ -2,6 +2,7 @@
     height: 240vh;
     width: 100%;
     background-color:white;
+    font-family: "Merriweather", serif;
 }
 
 .ielts-component{
@@ -28,12 +29,13 @@
 
 .ielts-title p{
     color: #f15a29;
+    font-size: 12px;
 }
 
 .ielts-title h1{
     padding-top: 10px;
     color: #0b2c6a;
-    font-size: 1.5rem;
+    font-size: 14px;
 }
 
 .ielts-title img{
@@ -65,7 +67,7 @@ width: 100%;
    top: 30%;
    left: 10%;
    gap: 10px;
-   font-size: 1.05rem;
+   font-size: 14px;
 }
 
 .orange{
@@ -103,15 +105,16 @@ width: 100%;
 
 #ielts-paragraph h2{
    color: #0b2c6a;
-   font-size: 1.6rem;
+   font-size: 14px;
    padding-top: 10px;
    padding-bottom: 10px;
 }
 
 #ielts-paragraph p , #ielts-parag p{
-    line-height: 21px;
+    line-height: 18px;
     text-align: justify;
     width: 99%;
+    font-size: 12px;
 }
 
 #ielts-box{
@@ -149,7 +152,7 @@ width: 100%;
     position: relative;
     top: -75%;
     left: 35%;
-    font-size: 1.05rem;
+    font-size: 14px;
     font-weight: bold;
     color: #0b2c6a;
 }
@@ -158,7 +161,7 @@ width: 100%;
     position: relative;
     top: -75%;
     left: 35%;
-    font-size: 1.05rem;
+    font-size: 16px;
     font-weight: bold;
     color: rgb(215, 91, 91);
 }
@@ -189,7 +192,7 @@ width: 100%;
   
   .form-header h2 {
     color: white;
-    font-size: 24px;
+    font-size: 14px;
     background: rgba(0,0,0,0.5);
     padding: 10px 20px;
     border-radius: 4px;
@@ -216,7 +219,7 @@ width: 100%;
     border: 1px solid #ddd;
     border-radius: 4px;
     background: white;
-    font-size: 14px;
+    font-size: 12px;
   }
   
   .enroll-form textarea {
@@ -233,7 +236,7 @@ width: 100%;
   
     margin-left: 22px;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
     transition: background-color 0.3s;
   }
@@ -309,8 +312,12 @@ width: 100%;
       height: 500px;
     }
 
+     .ielts-title p{
+      font-size: 12px;
+     }
+
     .ielts-title h1{
-        font-size: 16px;
+        font-size: 14px;
     }
   
     .ielts-title, .ielts-box {
@@ -342,7 +349,7 @@ width: 100%;
     .ielts-class p {
       top: 10px;
       left: 5%;
-      font-size: 14px;
+      font-size: 12px;
     }
   
     .ielts-para {
@@ -353,7 +360,7 @@ width: 100%;
     }
 
     #ielts-paragraph h2{
-        font-size: 16px;
+        font-size: 14px;
     }
 
     #ielts-paragraph{
@@ -393,7 +400,12 @@ width: 100%;
       margin-right: 10px;
     }
   
-    #ielts-imo h2, #p {
+    #ielts-imo h2 {
+      position: static;
+      font-size: 12px;
+      margin: 0;
+    }
+     #p {
       position: static;
       font-size: 14px;
       margin: 0;
@@ -435,12 +447,12 @@ width: 100%;
     .enroll-form select,
     .enroll-form textarea {
       margin-left: 0;
-      font-size: 14px;
+      font-size: 12px;
     }
   
     .book-now-button {
       margin-left: 0;
-      font-size: 14px;
+      font-size: 12px;
     }
     
     .ielts-triangle-one {

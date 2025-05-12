@@ -59,7 +59,7 @@ function AbroadStudy() {
 
   return (
     <>
-    <div>
+    <div className='abroad-div'>
          <div className="about-banner">
                       <img src={aboutus} alt="" />
                         <div className="banner-overlay">

@@ -1,3 +1,6 @@
+.franch-div{
+      font-family: "Merriweather", serif;
+}
 .franch-banner{
     height: 208vh;
     width: 100%;
@@ -29,14 +32,21 @@
 height: 400px;
 width: 100%;
 }
-.franch-img h1, .franch-overview h2{
+.franch-img h1{
     color: #0b2c6a;
-    font-size: 1.5rem;
     padding-bottom: 5px;
+    font-size: 25px;
+}
+
+.franch-overview h2{
+    color: #0b2c6a;
+    font-size: 14px;
+    padding-top: 20px;
 }
 .franch-img p{
     padding-bottom: 5px;
     color: #f15a29; 
+    font-size: 14px;
 }
 
 .franch-img img{
@@ -51,9 +61,10 @@ width: 100%;
 }
 
 .franch-overview p{
-    padding-top: 4px;
+    padding-top: 10px;
     text-align: justify;
-    line-height: 20px;
+    line-height: 18px;
+    font-size: 12px;
 }
 
 .franch-choose{
@@ -64,6 +75,14 @@ width: 100%;
 
 .franch-choose p, .franch-choose h2{
     padding-top: 8px;
+}
+.franch-choose p{
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.franch-choose h2{
+  font-size: 14px;
 }
 
 .franch-program{
@@ -79,12 +98,14 @@ width: 100%;
 }
 
 .franch-work p{
+  font-size: 12px;
     padding-bottom: 8px;
 }
 .franch-work h2{
     text-align: justify;
     padding-bottom: 4px;
 color: #0b2c6a;
+font-size: 14px;
 }
 
 #franch-footer-para{
@@ -119,12 +140,14 @@ color: #0b2c6a;
 .franch-admission h2{
     color: #0b2c6a;
     padding-bottom: 10px;
+    font-size: 14px;
 }
 
 .franch-admission p{
     display: flex;
     gap: 10px;
     padding-bottom: 10px;
+    font-size: 12px;
 }
 
 #franch-icon{
@@ -175,7 +198,7 @@ width: 100%;
    top: 30%;
    left: 10%;
    gap: 10px;
-   font-size: 1.05rem;
+   font-size: 14px;
 }
 
 .maggie{
@@ -211,7 +234,7 @@ width: 100%;
   
   .franch-header h2 {
     color: white;
-    font-size: 24px;
+    font-size: 14px;
     background: rgba(0,0,0,0.5);
     padding: 10px 20px;
     border-radius: 4px;
@@ -238,7 +261,7 @@ width: 100%;
     border: 1px solid #ddd;
     border-radius: 4px;
     background: white;
-    font-size: 14px;
+    font-size: 12px;
   }
   
   .enroll-franch textarea {
@@ -255,7 +278,7 @@ width: 100%;
   
     margin-left: 22px;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 12px;
     cursor: pointer;
     transition: background-color 0.3s;
   }
@@ -276,7 +299,7 @@ width: 100%;
       height: auto;
      margin: 0;
      position: absolute;
-     top: 68%;
+     top: 65%;
      overflow-x: hidden;
     }
   
@@ -296,11 +319,14 @@ width: 100%;
     }
 
     .franch-img{
-      height: 390px;
+      height: 385px;
+    }
+    .franch-img p{
+      font-size: 12px;
     }
   
     .franch-img h1 {
-      font-size: 16px;
+      font-size: 14px;
     }
   
     .franch-img img {
@@ -313,17 +339,17 @@ width: 100%;
     .franch-program h2,
     .franch-work h2,
     .franch-admission h2{
-        font-size: 16px;
+        font-size: 14px;
         padding-top: 15px;
-        padding-bottom: 10px;
+        /* padding-bottom: 10px; */
     }
     .franch-overview p,
     .franch-choose p,
     .franch-program p,
     .franch-work p,
     .franch-admission p{
-        font-size: 14px;
-        line-height: 15px;
+        font-size: 12px;
+        line-height: 18px;
         text-align: justify;
     }
   
@@ -370,7 +396,7 @@ width: 100%;
   }
   
     .franch-header h2 {
-      font-size: 16px;
+      font-size: 14px;
       padding: 8px 16px;
     }
   
@@ -393,12 +419,12 @@ width: 100%;
   
     .apply-now-button {
       margin-left: 0;
-      font-size: 14px;
+      font-size: 12px;
       padding: 10px;
     }
   
     #journey {
-      font-size: 14px;
+      font-size: 12px;
     }
   }
   

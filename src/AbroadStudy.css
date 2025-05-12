@@ -1,4 +1,6 @@
-
+.abroad-div{
+     font-family: "Merriweather", serif;
+}
 .abroadstudy-container {
     height: 242vh;
     width: 100%;
@@ -59,18 +61,21 @@ background-color: white;
     color: white;
     /* text-align: center; */
     z-index: 3;
+    font-size: 14px;
 }
 
 .abroadstudy-class p{
     text-align: center;
     padding-top: 8px;
     color: #f15a29;
+    font-size: 14px;
 }
 .abroadstudy-class h1{
     text-align: center;
     padding-top: 8px;
     padding-bottom: 8px;
     color: #0b2c6a;
+    font-size: 25px;
 }
 
 
@@ -80,7 +85,7 @@ background-color: white;
     .abroadstudy-container {
       height: auto; 
       position: relative;
-      top: -30px !important;
+      top: -40px !important;
       left: 5%;
       width: 90%;
       padding-bottom: 15px;

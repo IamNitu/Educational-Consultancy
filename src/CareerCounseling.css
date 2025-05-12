@@ -4,6 +4,7 @@
     background-color: white;
     margin-top: 20px;
     display: flex;
+     font-family: "Merriweather", serif;
 }
 
 .careercounseling-about{
@@ -18,18 +19,20 @@
 #career-description{
     padding-top: 10px;
     text-align: justify;
-   line-height: 22px;
-   
+   line-height: 18px;
+   font-size: 12px;
 }
 
 #careercounseling-header{
     padding-top: 10px;
     color: #f15a29;
+    font-size: 14px;
 }
 
 .careercounseling-about h1{
     padding-top: 10px;
     color: #0b2c6a;
+    font-size: 25px;
 }
 
 .careercounseling-about img{
@@ -63,7 +66,7 @@
     top: 30%;
     left: 5%;
     display: flex;
-    font-size: 1.07rem;
+    font-size: 14px;
     gap: 10px;
 }
 
@@ -99,8 +102,8 @@
     }
   
     #career-description {
-      font-size: 14px;
-      line-height: 15px;
+      font-size: 12px;
+      line-height: 18px;
     }
   
     .career-box,
@@ -120,11 +123,11 @@
     }
   
     .careercounseling-about h1 {
-      font-size: 18px;
+      font-size: 14px;
     }
   
     #careercounseling-header {
-      font-size: 16px;
+      font-size: 12px;
     }
   }
   
