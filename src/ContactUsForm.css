@@ -100,7 +100,7 @@
     }
   
     .banner h2 {
-      font-size: 18px;
+      font-size: 14px;
     }
   
     .form-wrapper {
@@ -109,7 +109,7 @@
     }
   
     .form-wrapper h3 {
-      font-size: 18px;
+      font-size: 14px;
       margin-bottom: 15px;
     }
   
@@ -123,18 +123,18 @@
     }
   
     .contact-form label {
-      font-size: 13px;
+      font-size: 12px;
     }
   
     .contact-form input,
     .contact-form textarea {
-      font-size: 13px;
+      font-size: 12px;
       padding: 8px;
     }
   
     .send-button {
       width: 100%;
-      font-size: 14px;
+      font-size: 12px;
       padding: 10px;
     }
   }
